@@ -20,9 +20,7 @@ namespace TestProject1.Controllers
                           
             
             
-            
-            
-            var name = "samaya";
+                  var name = "samaya";
             return View();
         }
 
