@@ -1,28 +1,15 @@
-# Bu dosya kök dosyadır
-root = true
+# .editorconfig
 
 # Genel ayarlar
 [*]
-indent_style = space                 # Boşluk kullanımı
-indent_size = 4                       # Girinti boyutu (4 boşluk)
-end_of_line = lf                      # Satır sonu karakteri (LF)
-charset = utf-8                       # Karakter kodlaması (UTF-8)
-trim_trailing_whitespace = true       # Satır sonlarındaki boşlukları sil
-insert_final_newline = true           # Dosya sonuna yeni satır ekle
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
 
 # C# dosyaları için kurallar
 [*.cs]
-# System direktiflerini başta sıralama
 dotnet_sort_system_directives_first = true
-# İthalat direktiflerini uygun şekilde grupla
 dotnet_separate_import_directive_groups = true
-
-# Kod düzenleme ve stil kuralları
-csharp_space_around_binary_operators = true   # Operatör etrafında boşluk bırak
-csharp_space_before_colon = false             # : operatöründen önce boşluk bırakma
-csharp_space_after_comma = true               # Virgülden sonra boşluk bırak
-csharp_new_line_before_members = true         # Üye tanımlamalarından önce yeni satır ekle
-csharp_new_line_before_open_brace = true      # Açılış süslü parantezden önce yeni satır ekle
-
-# Diğer stil ayarları
-csharp_brace_style = next_line    # Süslü parantez stilini next line yap (bunu isteğe göre değiştirebilirsiniz)
