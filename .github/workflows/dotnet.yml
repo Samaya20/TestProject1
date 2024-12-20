@@ -28,10 +28,8 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Verify Code Format
-      run: dotnet format --verify-no-changes
-    - name: Format and Verify Code
       run: |
-          dotnet format || (echo "Formatting issues detected. Running dotnet format to fix." && dotnet format)
+          dotnet format --verify-no-changes || (echo "Formatting issues detected. Running dotnet format to fix." && dotnet format)
     - name: Build
       run: dotnet build --no-restore
     - name: Test
