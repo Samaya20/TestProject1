@@ -1,5 +1,7 @@
-using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+
+using Microsoft.AspNetCore.Mvc;
+
 using TestProject1.Models;
 
 namespace TestProject1.Controllers
@@ -15,7 +17,7 @@ namespace TestProject1.Controllers
 
         public IActionResult Index()
         {
-                                    var name = "samaya";
+            var name = "samaya";
             return View();
         }
 
