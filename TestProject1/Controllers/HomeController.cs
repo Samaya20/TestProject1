@@ -15,6 +15,7 @@ namespace TestProject1.Controllers
 
         public IActionResult Index()
         {
+                          var name = "samaya";
             return View();
         }
 

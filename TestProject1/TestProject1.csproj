@@ -6,4 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\Muqum_dv24\source\repos\TestProject1\TestProject1\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\Muqum_dv24\source\repos\TestProject1\TestProject1\.editorconfig" />
+  </ItemGroup>
+
 </Project>
